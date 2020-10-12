@@ -1,3 +1,3 @@
-SELECT [имя] as name, [фамилия] as surname, [регион] as region
-  FROM [Книги].[dbo].[авторы]
+SELECT [РёРјСЏ] as name, [С„Р°РјРёР»РёСЏ] as surname, [СЂРµРіРёРѕРЅ] as region
+  FROM [РљРЅРёРіРё].[dbo].[Р°РІС‚РѕСЂС‹]
   ORDER BY region, surname, name asc;

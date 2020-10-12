@@ -1,9 +1,10 @@
 RESTORE FILELISTONLY
-FROM DISK = 'Z:\Downloads\SQL-02\Книги_ру.bak'
+FROM DISK = 'Z:\Downloads\SQL-02\РљРЅРёРіРё_СЂСѓ.bak'
 
-RESTORE DATABASE Книги
-FROM DISK = 'Z:\Downloads\SQL-02\Книги_ру.bak'
+RESTORE DATABASE РљРЅРёРіРё
+FROM DISK = 'Z:\Downloads\SQL-02\РљРЅРёРіРё_СЂСѓ.bak'
 
-WITH MOVE 'booksSQL_dat' TO 'Z:\Downloads\SQL-02\Книги_ру.mdf',
-MOVE 'booksSQL_log' TO 'Z:\Downloads\SQL-02\Книги_ру.ldf',
+WITH MOVE 'booksSQL_dat' TO 'Z:\Downloads\SQL-02\РљРЅРёРіРё_СЂСѓ.mdf',
+OVE 'booksSQL_log' TO 'Z:\Downloads\SQL-02\РљРЅРёРіРё_СЂСѓ.ldf',
 REPLACE;
+

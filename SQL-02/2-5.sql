@@ -1,3 +1,3 @@
-SELECT DISTINCT [регион]
-  FROM [Книги].[dbo].[авторы]
-  ORDER BY [регион] asc;
+SELECT DISTINCT [СЂРµРіРёРѕРЅ]
+  FROM [РљРЅРёРіРё].[dbo].[Р°РІС‚РѕСЂС‹]
+  ORDER BY [СЂРµРіРёРѕРЅ] asc;
